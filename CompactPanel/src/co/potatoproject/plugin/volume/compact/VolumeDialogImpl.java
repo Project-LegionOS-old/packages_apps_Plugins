@@ -578,10 +578,8 @@ public class VolumeDialogImpl extends PanelSideAware implements VolumeDialog {
 
         if (mExpandRows != null) {
             mExpandRows.setOnLongClickListener(v -> {
-                rescheduleTimeoutH();
                 Events.writeEvent(mContext, Events.EVENT_SETTINGS_CLICK);
-                Intent intent = new Intent(Settings.ACTION_SOUND_SETTINGS);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                Intent intent = new Intent(Settings.Panel.ACTION_VOLUME);
                 dismissH(DISMISS_REASON_SETTINGS_CLICKED);
                 PluginDependency.get(this, ActivityStarter.class).startActivity(intent,
                         true /* dismissShade */);
@@ -611,7 +609,7 @@ public class VolumeDialogImpl extends PanelSideAware implements VolumeDialog {
                     mActivityManager.getLockTaskModeState() == LOCK_TASK_MODE_NONE &&
                             isBluetoothA2dpConnected() ? VISIBLE : GONE);
         }
-        
+
         if (mMediaOutputIcon != null) {
             mMediaOutputIcon.setOnClickListener(v -> {
                 Events.writeEvent(mContext, Events.EVENT_SETTINGS_CLICK);
