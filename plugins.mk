@@ -3,4 +3,4 @@ PRODUCT_PACKAGES += \
 	CompactPanel \
 	OreoPanel \
 	TiledPanel \
-	MiuiPanel
+	MiuiCompactPanel
