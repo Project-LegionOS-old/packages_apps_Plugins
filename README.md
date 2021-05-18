@@ -1,7 +1,7 @@
 # POSP SystemUI Plugins
 
-This repository (currently) houses 4 different SystemUI Volume Panel Plugins.
-To build and use these as intended, you may need to pick some changes from our [frameworks/base](https://github.com/PotatoProject/frameworks_base).
+This repository (currently) houses 5 different SystemUI Volume Panel Plugins.
+To build and use these as intended, you may need to pick some changes from our [frameworks/base](https://github.com/Project-LegionOS/frameworks_base)    [packages/apps/Settings](https://github.com/Project-LegionOS/packages_apps_Settings)     [packages/apps/LegionSettings](https://github.com/Project-LegionOS/packages_apps_LegionSettings).
 
 Then, compile the following modules:
 ```
