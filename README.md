@@ -7,6 +7,7 @@ Then, compile the following modules:
 ```
 AospPanel
 CompactPanel
+MiuiCompactPanel
 OreoPanel
 TiledPanel
 ```
