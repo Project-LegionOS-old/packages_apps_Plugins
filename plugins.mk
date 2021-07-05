@@ -4,4 +4,5 @@ PRODUCT_PACKAGES += \
 	OreoPanel \
 	TiledPanel \
 	MiuiCompactPanel \
-	OosPanel
+	OosPanel \
+	P404Panel
