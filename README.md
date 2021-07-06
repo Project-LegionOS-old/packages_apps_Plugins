@@ -10,6 +10,9 @@ CompactPanel
 MiuiCompactPanel
 OreoPanel
 TiledPanel
+MiuiPanel
+P404Panel
+OosPanel
 ```
 
 **Please refrain from altering packagenames/classpaths and Copyright headers**
