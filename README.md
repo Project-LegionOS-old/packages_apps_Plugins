@@ -5,7 +5,6 @@ To build and use these as intended, you may need to pick some changes from our [
 
 Then, compile the following modules:
 ```
-AospPanel
 CompactPanel
 MiuiCompactPanel
 OreoPanel
