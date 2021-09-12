@@ -66,6 +66,19 @@
             android:tint="@color/accent_tint_color_selector"
             android:visibility="gone"
             android:soundEffectsEnabled="false" />
+            
+         <co.potatoproject.plugin.volume.common.AlphaOptimizedImageButton
+            android:id="@+id/volume_row_app_icon"
+            style="@style/VolumeButtons"
+            android:visibility="gone"
+            android:layout_width="@dimen/volume_dialog_tap_target_size"
+            android:layout_height="@dimen/volume_dialog_tap_target_size"
+            android:background="@drawable/ripple_drawable_20dp"
+            android:layout_marginTop="@dimen/volume_dialog_app_row_icon_margintop"
+            android:paddingStart="@dimen/volume_row_app_icon_padding"
+            android:paddingEnd="@dimen/volume_row_app_icon_padding"
+            android:scaleType="fitXY"
+            android:soundEffectsEnabled="false"/>
     </LinearLayout>
 
     <include layout="@layout/volume_dnd_icon"/>
